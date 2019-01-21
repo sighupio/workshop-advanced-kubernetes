@@ -10,7 +10,7 @@ In this repo you will find all the code used during the workshop. If you are int
 
 ### Setup & Environment
 
-During the workshop, we encourage participants to work in pair. Therefore at least one computer per couple should be available and correctly configured.
+You will need to have a laptop (Windows, Linux or Mac), it is preferred for your machine to have at least 8GB of RAM. This isn't strictly required but highly recommended. Working with VMs and Containers **is** resource intensive, no way to get around it.
 
 #### Kubernetes
 
