@@ -61,7 +61,7 @@ As a bonus, you should install `kubectx` and `kubens` [(installation instruction
 
 #### Helm and Kustomize
 
-Install `kustomize` and `helm`. To install Kustomize, [here you can find the installation instructions](https://github.com/kubernetes-sigs/kustomize/blob/master/docs/INSTALL.md). Same goes for [helm](https://github.com/helm/helm#install)
+Install `kustomize` and `helm`. To install Kustomize, [here you can find the installation instructions](https://github.com/kubernetes-sigs/kustomize/blob/master/docs/INSTALL.md).
 
 ### Using Minikube
 
