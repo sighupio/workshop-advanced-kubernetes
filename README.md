@@ -69,7 +69,7 @@ Use the following commands to start a minikube cluster and link it to your local
 
 ```shell
 # Starting a local minikube cluster of 1 node
-minikube start --cpus=2 --memory=4096 --kubernetes-version=v1.11.4
+minikube start --cpus=2 --memory=8192
 # Checking nodes
 kubectl get pods
 # Using docker from minikube
