@@ -1,12 +1,61 @@
-# Kubernetes Application Design Workshop by [SIGHUP](https://sighup.io)
+# Advanced Kubernetes Workshop by [SIGHUP](https://sighup.io)
 
-Welcome to the Kubernetes Application Design and Delivery workshop. This workshop is organized by [SIGHUP](https://sighup.io) and aims to provide a comprehensive deep dive on the fundamentals of Kubernetes, on the patterns and best practices that could be adopted while developing distributed applications and microservices architectures on Kubernetes.
+Welcome to the Advanced Kubernetes workshop. This workshop is organized by [SIGHUP](https://sighup.io) and aims to provide a comprehensive deep dive on the fundamentals of Kubernetes, on the patterns and best practices that could be adopted while developing distributed applications and microservices architectures on Kubernetes.
+
+If you are interested in this workshop or want an on-site training, you can [email us](mailto:training@sighup.io) for more information.
 
 ## Workshop info
 
-In this repo you will find all the code used during the workshop. If you are interested in this workshop or want an on-site training, you can [email us](mailto:training@sighup.io) for more information.
+This workshop can be delivered in two forms: both as a 2-days and as a 3 days workshop.
 
-### Setup & Environment
+### Program
+
+#### Day 1
+
+- Docker quick recap and review (Build, Ship, Run)
+- Kubernetes foundations:
+  - Nodes
+  - Labels & Selectors
+  - Pods
+  - ReplicaSets & Deployments
+  - Deployments in actions: automated Rollouts and Rollbacks
+  - Resource Quotas & Limits
+- Storage & Configurations:
+  - Volumes
+  - ConfigMaps & Secrets
+- Exposing Services in Kubernetes:
+  - Services
+  - Service Discovery
+  - Ingresses
+- Deployment strategies:
+  - Canary
+  - Blue/Green Deployment
+- Other types of objects:
+  - DaemonSets
+  - Stateulsets & Stateful workloads
+  - Jobs & CronJobs
+
+#### Day 2
+- Probing
+- RBAC & Security Policies
+- Patterns for development
+- Distributing applications on Kubernetes
+  - Kustomize
+  - Helm
+- An introduction on the Kubernetes architecture
+
+#### Day 3
+- Cloud Native monitoring with Prometheus
+  - Prometheus monitoring architecture
+  - Configuration and Relabeling
+  - Alertmanager and Alerting Rules
+  - A better way to handle Prometheus: Prometheus Operator
+- Centralized Logging with Fluentd + Elasticsearch + Kibana
+- Kubernetes Disaster Recovery with Velero
+- HA Kubernetes & Cluster Lifecycle Management
+
+
+## Setup & Environment
 
 You will need to have a laptop (Windows, Linux or Mac), it is preferred for your machine to have at least 8GB of RAM. This isn't strictly required but highly recommended. Working with VMs and Containers **is** resource intensive, no way to get around it.
 
