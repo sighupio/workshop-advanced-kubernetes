@@ -4,8 +4,6 @@ Welcome to the Kubernetes Application Design and Delivery workshop. This worksho
 
 ## Workshop info
 
-The first community edition of this workshop has been develivered at [Codemotion Milan 2018](https://milan2018.codemotionworld.com/workshop/kubernetes-application-design-and-delivery/).
-
 In this repo you will find all the code used during the workshop. If you are interested in this workshop or want an on-site training, you can [email us](mailto:training@sighup.io) for more information.
 
 ### Setup & Environment
