@@ -70,30 +70,30 @@ For this workshop you will need an hypervisor installed on your machine. If you 
 ##### Minikube
 Here you can find [installation instructions](https://github.com/kubernetes/minikube#installation) for your system to easily get `minikube` up and running. Note that you will need to have a hypervisor installed (something like Virtualbox).
 
-For macOS:  
+For macOS:
 
 ```shell
 brew cask install minikube
 ```
 
-For Linux:  
+For Linux:
 ```shell
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \
   && sudo install minikube-linux-amd64 /usr/local/bin/minikube
 ```
 
-For Windows:  
+For Windows:
 Instructions will depend on the version of the OS. [Refer to the official documentaion](https://github.com/kubernetes/minikube#windows), you can find the binary version for manual installation [here](https://storage.googleapis.com/minikube/releases/latest/minikube-windows-amd64.exe)
 
 #### Kubectl
 You will need to install `kubectl`. `Kubectl` is the CLI tool to interact with Kubernetes.
 
-On macOS:  
+On macOS:
 ```shell
 brew install kubernetes-cli
 ```
 
-On Linux Ubuntu/Debian:  
+On Linux Ubuntu/Debian:
 ```shell
 sudo apt-get update && sudo apt-get install -y apt-transport-https
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
@@ -106,9 +106,22 @@ For other OS, refer to the [official install docs](https://kubernetes.io/docs/ta
 
 As a bonus, you should install `kubectx` and `kubens` [(installation instructions here)](https://github.com/ahmetb/kubectx#installation), they are not strictly required but are actually priceless, so... why not.
 
-#### Helm and Kustomize
+#### Kustomize
+Kustomize is needed to ease the handling and the customization of multiple
+manifest files.
 
-Install `kustomize` and `helm`. To install Kustomize, [here you can find the installation instructions](https://github.com/kubernetes-sigs/kustomize/blob/master/docs/INSTALL.md).
+To install
+```shell
+opsys=linux  # or darwin, or windows
+curl -L -O https://github.com/kubernetes-sigs/kustomize/releases/download/v1.0.10/kustomize_1.0.10_${opsys}_amd64
+mv kustomize_*_${opsys}_amd64 kustomize
+chmod u+x kustomize
+```
+
+#### Helm
+Helm is a package manager for Kubernetes.
+
+To install Helm, [here you can find the installation instructions](https://github.com/helm/helm#install)
 
 ### Using Minikube
 
