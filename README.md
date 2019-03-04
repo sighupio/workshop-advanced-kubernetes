@@ -145,7 +145,7 @@ Minikube is a simple one-node installation of Kubernetes specifically designed t
 Do the following commands to setup the minikube installation:
 
 2. `minikube ssh` to get into the machine
-3. From inside the machine do `docker pull sighup/powerapp-frontend`, `docker pull sighup/powerapp-backend`, `docker pull docker pull mongo:4.1.5-xenial`
+3. From inside the machine do `docker pull sighup/powerapp-frontend`, `docker pull sighup/powerapp-backend`, `docker pull  mongo:4.1.5-xenial`
 4. Stop minikube without destroying it with `minikube stop`
 
 If you don't know what those commands are for or how they work specifically, do not worry. We will review them during the workshop.
