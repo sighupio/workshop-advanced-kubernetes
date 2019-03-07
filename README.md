@@ -65,7 +65,7 @@ You should have access to a Kubernetes cluster. You can very easily provision a 
 
 ##### Hypervisor
 
-For this workshop you will need an hypervisor installed on your machine. If you don't have one compatible with Minikube on your machine, you can [install Virtulbox for free](https://www.virtualbox.org/).
+For this workshop you will need an hypervisor installed on your machine. If you don't have one compatible with Minikube on your machine, you can [install Virtualbox for free](https://www.virtualbox.org/).
 
 ##### Minikube
 Here you can find [installation instructions](https://github.com/kubernetes/minikube#installation) for your system to easily get `minikube` up and running. Note that you will need to have a hypervisor installed (something like Virtualbox).
@@ -83,7 +83,7 @@ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-
 ```
 
 For Windows:
-Instructions will depend on the version of the OS. [Refer to the official documentaion](https://github.com/kubernetes/minikube#windows), you can find the binary version for manual installation [here](https://storage.googleapis.com/minikube/releases/latest/minikube-windows-amd64.exe)
+Instructions will depend on the version of the OS. [Refer to the official documentation](https://github.com/kubernetes/minikube#windows), you can find the binary version for manual installation [here](https://storage.googleapis.com/minikube/releases/latest/minikube-windows-amd64.exe)
 
 #### Kubectl
 You will need to install `kubectl`. `Kubectl` is the CLI tool to interact with Kubernetes.
