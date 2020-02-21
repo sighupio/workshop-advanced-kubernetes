@@ -112,9 +112,12 @@ manifest files.
 
 To install
 ```shell
-opsys=linux  # or darwin, or windows
-curl -L -O https://github.com/kubernetes-sigs/kustomize/releases/download/v1.0.10/kustomize_1.0.10_${opsys}_amd64
-mv kustomize_*_${opsys}_amd64 kustomize
+# Install Kustomize
+curl -s "https://raw.githubusercontent.com/\
+kubernetes-sigs/kustomize/master/hack/install_kustomize.sh"  | bash
+
+# Move and copy
+mv kustomize /usr/local/bin/kustomize
 chmod u+x kustomize
 ```
 
